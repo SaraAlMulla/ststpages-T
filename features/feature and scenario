@@ -1,0 +1,8 @@
+Feature: Homepage
+ In order to have a place for clients to land 
+ As a vet
+ I want to have a page for the application
+
+Scenario: Homepage
+ when I go to the application root
+ Then I should see "Welcome to my application"
